@@ -3,7 +3,7 @@ import { BusinessError } from "@kit.BasicServicesKit"
 import { CryptoJS } from '@ohos/crypto-js'
 import { Helper } from "../utils/Helper"
 import { Config } from "../Config"
-import { prompt, promptAction, SwipeRefresher } from "@kit.ArkUI"
+import { promptAction, SwipeRefresher } from "@kit.ArkUI"
 import { MainMenuType } from "../model/Model"
 import { preferences } from "@kit.ArkData"
 import { common } from "@kit.AbilityKit"
